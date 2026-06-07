@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Go
+webhook-server/webhook-server
+webhook-server/*.exe
+
+# Node
+ai-code-review-frontend/node_modules/
+ai-code-review-frontend/.next/
+ai-code-review-frontend/out/
+ai-code-review-frontend/.env.local
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
